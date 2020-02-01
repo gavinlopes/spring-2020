@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\HelloWorld.cs" />
+    <Compile Include="Assets\Scripts\NumberWizard.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/erikavavrek/Desktop/Spring_2020/spring-2020/Scripting_Prac/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
