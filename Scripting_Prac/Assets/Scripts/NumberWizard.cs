@@ -5,11 +5,14 @@ using UnityEngine;
 public class NumberWizard : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
+		int max = 1000;
+		
 		Debug.Log("Welcome to number wizard people");
 		Debug.Log("Welcome");
 		Debug.Log("Pick a number");
-		Debug.Log("Highest number is 100");
+		Debug.Log("Highest number is: " + max);
 		Debug.Log("Lowest number is 1");
 	}
 	
