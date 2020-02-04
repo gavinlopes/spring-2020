@@ -5,14 +5,22 @@ using UnityEngine;
 
 public class NumberWizard : MonoBehaviour {
 	
-	int max = 1000;
-	int min = 1;
-	int guess = 500;
+	int max;
+	int min;
+	int guess;
 	
-
 	// Use this for initialization
 	void Start ()
 	{
+		StartGame();	
+	}
+
+	void StartGame()
+	{
+		max = 1000;
+		min = 1;
+		guess = 500;
+		
 		Debug.Log("Yo watch me pick your number!");
 		Debug.Log("How are ya btw?");
 		Debug.Log("Go ahead, pick a number");
@@ -29,19 +37,25 @@ public class NumberWizard : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.UpArrow))
 		{
 			min = guess;
-			guess = (max + min) / 2;
-			Debug.Log("Is it higher or lower than..." + guess);
+			NextGuess();
+			
 		}
 
 		else if (Input.GetKeyDown(KeyCode.DownArrow))
 		{
 			max = guess;
-			guess = (max + min) / 2;
-			Debug.Log("Is it higher or lower than..." + guess);
+			NextGuess();
 		}
 		else if (Input.GetKeyDown(KeyCode.Return))
 		{
 			Debug.Log("TOLD YOU SO!");
+			StartGame();
 		}
+	}
+
+	void NextGuess()
+	{
+		guess = (max + min) / 2;
+		Debug.Log("Is it higher or lower than..." + guess);
 	}
 }
