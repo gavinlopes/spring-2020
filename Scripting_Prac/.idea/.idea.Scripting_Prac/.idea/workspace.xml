@@ -13,19 +13,19 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="526" />
+          <entry key="cs" value="640" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="526" />
+          <entry key="C#" value="640" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,16 +45,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/NumberWizard.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="510">
+              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
               <folding>
-                <marker date="1580593740673" expanded="false" signature="6:78" ph="..." />
-                <marker date="1580593740673" expanded="true" signature="122:891" ph="{...}" />
-                <marker date="1580593740673" expanded="true" signature="171:540" ph="{...}" />
-                <marker date="1580593740673" expanded="true" signature="595:889" ph="{...}" />
-                <marker date="1580593740673" expanded="true" signature="639:690" ph="{...}" />
-                <marker date="1580593740673" expanded="true" signature="739:792" ph="{...}" />
-                <marker date="1580593740673" expanded="true" signature="838:886" ph="{...}" />
+                <marker date="1580796072481" expanded="false" signature="6:131" ph="..." />
+                <marker date="1580796072481" expanded="true" signature="175:1036" ph="{...}" />
+                <marker date="1580796072481" expanded="true" signature="277:610" ph="{...}" />
+                <marker date="1580796072481" expanded="true" signature="665:1034" ph="{...}" />
+                <marker date="1580796072481" expanded="true" signature="709:797" ph="{...}" />
+                <marker date="1580796072481" expanded="true" signature="846:937" ph="{...}" />
+                <marker date="1580796072481" expanded="true" signature="983:1031" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -96,11 +96,11 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-      </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -149,11 +149,12 @@
       <updated>1580539721636</updated>
       <workItem from="1580539729708" duration="1099000" />
       <workItem from="1580591444028" duration="2831000" />
+      <workItem from="1580794983189" duration="1724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3930000" />
+    <option name="totallyTimeSpent" value="5654000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,16 +222,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/NumberWizard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding>
-            <marker date="1580593740673" expanded="false" signature="6:78" ph="..." />
-            <marker date="1580593740673" expanded="true" signature="122:891" ph="{...}" />
-            <marker date="1580593740673" expanded="true" signature="171:540" ph="{...}" />
-            <marker date="1580593740673" expanded="true" signature="595:889" ph="{...}" />
-            <marker date="1580593740673" expanded="true" signature="639:690" ph="{...}" />
-            <marker date="1580593740673" expanded="true" signature="739:792" ph="{...}" />
-            <marker date="1580593740673" expanded="true" signature="838:886" ph="{...}" />
+            <marker date="1580796072481" expanded="false" signature="6:131" ph="..." />
+            <marker date="1580796072481" expanded="true" signature="175:1036" ph="{...}" />
+            <marker date="1580796072481" expanded="true" signature="277:610" ph="{...}" />
+            <marker date="1580796072481" expanded="true" signature="665:1034" ph="{...}" />
+            <marker date="1580796072481" expanded="true" signature="709:797" ph="{...}" />
+            <marker date="1580796072481" expanded="true" signature="846:937" ph="{...}" />
+            <marker date="1580796072481" expanded="true" signature="983:1031" ph="{...}" />
           </folding>
         </state>
       </provider>
