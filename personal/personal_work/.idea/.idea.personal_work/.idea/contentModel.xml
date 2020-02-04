@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\10655472\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\10655472\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_personal_work.837476763.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10655472\Desktop\spring_2020\spring-2020\personal\personal_work" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Run.cs" t="Include" />
+        <e p="Scenes" t="Include">
+          <e p="Run.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="personal_work.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
