@@ -63,7 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Walk.cs" />
+    <Compile Include="Assets\Charactermover.cs" />
+    <Compile Include="Assets\FloatData.cs" />
+    <Compile Include="Assets\Sprint.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/10655472/Desktop/spring_2020/spring-2020/marty/game_design_game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
