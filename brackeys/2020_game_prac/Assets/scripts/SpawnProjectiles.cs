@@ -23,6 +23,20 @@ public class SpawnProjectiles : MonoBehaviour
         {
             SpawnVFX();
         }
-        
+    }
+
+    void SpawnVFX()
+    {
+        GameObject vfx;
+
+        if (firePoint != null)
+        {
+            vfx = Instantiate(effectToSpawn, firePoint.transform.position, Quaternion.identity);
+        }
+        else
+        {
+            Debug.Log("No Fire Point");
+        }
+       
     }
 }
