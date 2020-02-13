@@ -63,6 +63,7 @@
     <Compile Include="Assets\scripts\HealthBar.cs" />
     <Compile Include="Assets\scripts\PlayerHealth.cs" />
     <Compile Include="Assets\scripts\ProjectileMove.cs" />
+    <Compile Include="Assets\scripts\RotateToMouse.cs" />
     <Compile Include="Assets\scripts\SpawnProjectiles.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/erikavavrek/Desktop/Spring_2020/spring-2020/brackeys/2020_game_prac/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
