@@ -20,22 +20,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="815" />
+          <entry key="cs" value="947" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="815" />
+          <entry key="C#" value="947" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="3" />
+          <entry key="cs" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="3" />
+          <entry key="C#" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -88,19 +88,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/SpawnProjectiles.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="570">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
-                <marker date="1581579574607" expanded="true" signature="6:78" ph="..." />
-                <marker date="1581579574607" expanded="true" signature="125:722" ph="{...}" />
-                <marker date="1581579574607" expanded="true" signature="332:377" ph="{...}" />
-                <marker date="1581579574607" expanded="true" signature="435:528" ph="{...}" />
-                <marker date="1581579574607" expanded="true" signature="478:522" ph="{...}" />
-                <marker date="1581579574607" expanded="true" signature="549:720" ph="{...}" />
-                <marker date="1581579574607" expanded="true" signature="611:706" ph="{...}" />
+                <marker date="1581579665139" expanded="true" signature="6:78" ph="..." />
+                <marker date="1581579665139" expanded="true" signature="125:817" ph="{...}" />
+                <marker date="1581579665139" expanded="true" signature="332:377" ph="{...}" />
+                <marker date="1581579665139" expanded="true" signature="435:528" ph="{...}" />
+                <marker date="1581579665139" expanded="true" signature="478:522" ph="{...}" />
+                <marker date="1581579665139" expanded="true" signature="549:815" ph="{...}" />
+                <marker date="1581579665139" expanded="true" signature="611:728" ph="{...}" />
+                <marker date="1581579665139" expanded="true" signature="741:801" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/ProjectileMove.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+              <folding>
+                <marker date="1581580676608" expanded="false" signature="6:78" ph="..." />
+                <marker date="1581580676608" expanded="true" signature="123:550" ph="{...}" />
+                <marker date="1581580676608" expanded="true" signature="256:277" ph="{...}" />
+                <marker date="1581580676608" expanded="true" signature="335:548" ph="{...}" />
+                <marker date="1581580676608" expanded="true" signature="365:465" ph="{...}" />
+                <marker date="1581580676608" expanded="true" signature="478:533" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -116,6 +134,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/scripts/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/Billboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/ProjectileMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/SpawnProjectiles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -128,6 +147,7 @@
         <option value="$PROJECT_DIR$/Assets/scripts/Billboard.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/SpawnProjectiles.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/ProjectileMove.cs" />
       </list>
     </option>
   </component>
@@ -138,7 +158,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="463" />
+    <option name="x" value="600" />
     <option name="y" value="23" />
     <option name="width" value="976" />
     <option name="height" value="867" />
@@ -203,12 +223,12 @@
       <updated>1581380901746</updated>
       <workItem from="1581380912918" duration="1333000" />
       <workItem from="1581386465203" duration="950000" />
-      <workItem from="1581577058152" duration="1958000" />
+      <workItem from="1581577058152" duration="3181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4241000" />
+    <option name="totallyTimeSpent" value="5464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,10 +240,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="674" y="23" width="765" height="867" extended-state="0" />
+    <frame x="600" y="23" width="976" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21576764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16702355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -323,16 +343,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/SpawnProjectiles.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="570">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
-            <marker date="1581579574607" expanded="true" signature="6:78" ph="..." />
-            <marker date="1581579574607" expanded="true" signature="125:722" ph="{...}" />
-            <marker date="1581579574607" expanded="true" signature="332:377" ph="{...}" />
-            <marker date="1581579574607" expanded="true" signature="435:528" ph="{...}" />
-            <marker date="1581579574607" expanded="true" signature="478:522" ph="{...}" />
-            <marker date="1581579574607" expanded="true" signature="549:720" ph="{...}" />
-            <marker date="1581579574607" expanded="true" signature="611:706" ph="{...}" />
+            <marker date="1581579665139" expanded="true" signature="6:78" ph="..." />
+            <marker date="1581579665139" expanded="true" signature="125:817" ph="{...}" />
+            <marker date="1581579665139" expanded="true" signature="332:377" ph="{...}" />
+            <marker date="1581579665139" expanded="true" signature="435:528" ph="{...}" />
+            <marker date="1581579665139" expanded="true" signature="478:522" ph="{...}" />
+            <marker date="1581579665139" expanded="true" signature="549:815" ph="{...}" />
+            <marker date="1581579665139" expanded="true" signature="611:728" ph="{...}" />
+            <marker date="1581579665139" expanded="true" signature="741:801" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/ProjectileMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+          <folding>
+            <marker date="1581580676608" expanded="false" signature="6:78" ph="..." />
+            <marker date="1581580676608" expanded="true" signature="123:550" ph="{...}" />
+            <marker date="1581580676608" expanded="true" signature="256:277" ph="{...}" />
+            <marker date="1581580676608" expanded="true" signature="335:548" ph="{...}" />
+            <marker date="1581580676608" expanded="true" signature="365:465" ph="{...}" />
+            <marker date="1581580676608" expanded="true" signature="478:533" ph="{...}" />
           </folding>
         </state>
       </provider>
