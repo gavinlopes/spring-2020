@@ -11,6 +11,7 @@
           <e p="FloatData.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="PlayerHealth.cs" t="Include" />
+          <e p="SpawnProjectiles.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
