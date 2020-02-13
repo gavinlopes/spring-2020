@@ -26,12 +26,16 @@ public class RotateToMouse : MonoBehaviour
             }
             else
             {
-                Debug.Log("No Camera");
+                var pos = rayMouse.GetPoint(maximumLength);
+                RotateToMouseDirection(gameObject, pos);
             }
         }
-        
+        else
+        {
+            Debug.Log("No Camera");
+        }       
     }
-
+    
     void RotateToMouseDirection(GameObject obj, Vector3 destination)
     {
         direction = destination - obj.transform.position;
