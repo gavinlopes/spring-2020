@@ -20,12 +20,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1359" />
+          <entry key="cs" value="1366" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1359" />
+          <entry key="C#" value="1366" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -127,16 +127,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/RotateToMouse.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="38" column="76" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+            <state>
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
               <folding>
-                <marker date="1581582061022" expanded="false" signature="6:78" ph="..." />
-                <marker date="1581582061022" expanded="true" signature="122:1096" ph="{...}" />
-                <marker date="1581582061022" expanded="true" signature="353:820" ph="{...}" />
-                <marker date="1581582061022" expanded="true" signature="384:805" ph="{...}" />
-                <marker date="1581582061022" expanded="true" signature="619:710" ph="{...}" />
-                <marker date="1581582061022" expanded="true" signature="727:795" ph="{...}" />
-                <marker date="1581582061022" expanded="true" signature="890:1094" ph="{...}" />
+                <marker date="1581582231628" expanded="true" signature="6:78" ph="..." />
+                <marker date="1581582231628" expanded="true" signature="122:1109" ph="{...}" />
+                <marker date="1581582231628" expanded="true" signature="353:820" ph="{...}" />
+                <marker date="1581582231628" expanded="true" signature="384:805" ph="{...}" />
+                <marker date="1581582231628" expanded="true" signature="619:710" ph="{...}" />
+                <marker date="1581582231628" expanded="true" signature="727:795" ph="{...}" />
+                <marker date="1581582231628" expanded="true" signature="890:1107" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -243,12 +243,12 @@
       <updated>1581380901746</updated>
       <workItem from="1581380912918" duration="1333000" />
       <workItem from="1581386465203" duration="950000" />
-      <workItem from="1581577058152" duration="4148000" />
+      <workItem from="1581577058152" duration="4428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6431000" />
+    <option name="totallyTimeSpent" value="6711000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -260,7 +260,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="521" y="23" width="1055" height="867" extended-state="0" />
+    <frame x="272" y="23" width="1055" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15399803" />
@@ -395,16 +395,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/RotateToMouse.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="76" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
           <folding>
-            <marker date="1581582061022" expanded="false" signature="6:78" ph="..." />
-            <marker date="1581582061022" expanded="true" signature="122:1096" ph="{...}" />
-            <marker date="1581582061022" expanded="true" signature="353:820" ph="{...}" />
-            <marker date="1581582061022" expanded="true" signature="384:805" ph="{...}" />
-            <marker date="1581582061022" expanded="true" signature="619:710" ph="{...}" />
-            <marker date="1581582061022" expanded="true" signature="727:795" ph="{...}" />
-            <marker date="1581582061022" expanded="true" signature="890:1094" ph="{...}" />
+            <marker date="1581582231628" expanded="true" signature="6:78" ph="..." />
+            <marker date="1581582231628" expanded="true" signature="122:1109" ph="{...}" />
+            <marker date="1581582231628" expanded="true" signature="353:820" ph="{...}" />
+            <marker date="1581582231628" expanded="true" signature="384:805" ph="{...}" />
+            <marker date="1581582231628" expanded="true" signature="619:710" ph="{...}" />
+            <marker date="1581582231628" expanded="true" signature="727:795" ph="{...}" />
+            <marker date="1581582231628" expanded="true" signature="890:1107" ph="{...}" />
           </folding>
         </state>
       </provider>
