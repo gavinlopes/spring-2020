@@ -34,12 +34,15 @@ public class RotateToMouse : MonoBehaviour
         {
             Debug.Log("No Camera");
         }       
-    }
-    
+    }    
     void RotateToMouseDirection(GameObject obj, Vector3 destination)
     {
         direction = destination - obj.transform.position;
         rotation = Quaternion.LookRotation(direction);
         obj.transform.localRotation = Quaternion.Lerp(obj.transform.rotation, rotation, 1);
+    }
+    public Quaternion GetRotation()
+    {
+        return rotation;
     }
 }
