@@ -10,6 +10,7 @@
           <e p="CharacterMover.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
+          <e p="PlayerFollow.cs" t="Include" />
           <e p="PlayerHealth.cs" t="Include" />
           <e p="ProjectileMove.cs" t="Include" />
           <e p="RotateToMouse.cs" t="Include" />
