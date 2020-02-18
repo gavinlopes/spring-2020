@@ -12,6 +12,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/PlayerFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/Charactermover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -27,6 +29,7 @@
         <option value="$PROJECT_DIR$/Assets/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Billboard.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/PlayerFollow.cs" />
       </list>
     </option>
   </component>
@@ -86,6 +89,7 @@
       <workItem from="1580856732021" duration="2652000" />
       <workItem from="1581437909939" duration="844000" />
       <workItem from="1581440676984" duration="755000" />
+      <workItem from="1582057717915" duration="2061000" />
     </task>
     <servers />
   </component>

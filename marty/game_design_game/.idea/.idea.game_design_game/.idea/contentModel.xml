@@ -11,6 +11,7 @@
           <e p="Charactermover.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
+          <e p="PlayerFollow.cs" t="Include" />
           <e p="PlayerHealth.cs" t="Include" />
           <e p="Sprint.cs" t="Include" />
         </e>

@@ -67,6 +67,7 @@
     <Compile Include="Assets\scripts\Charactermover.cs" />
     <Compile Include="Assets\scripts\FloatData.cs" />
     <Compile Include="Assets\scripts\HealthBar.cs" />
+    <Compile Include="Assets\scripts\PlayerFollow.cs" />
     <Compile Include="Assets\scripts\PlayerHealth.cs" />
     <Compile Include="Assets\scripts\Sprint.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
