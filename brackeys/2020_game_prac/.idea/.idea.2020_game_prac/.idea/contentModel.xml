@@ -8,6 +8,7 @@
         <e p="scripts" t="Include">
           <e p="Billboard.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
