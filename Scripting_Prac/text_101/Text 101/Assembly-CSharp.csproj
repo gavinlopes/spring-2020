@@ -64,11 +64,11 @@
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>/Users/erikavavrek/Desktop/Spring_2020/spring-2020/Scripting_Prac/text_101/Text 101/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/erikavavrek/Desktop/Spring_2020/spring-2020/Scripting_Prac/text_101/Text 101/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/erikavavrek/Desktop/Spring_2020/spring-2020/Scripting_Prac/text_101/Text 101/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/erikavavrek/Desktop/Spring_2020/spring-2020/Scripting_Prac/text_101/Text 101/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/erikavavrek/Desktop/Spring_2020/spring-2020/Scripting_Prac/text_101/Text 101/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
