@@ -20,12 +20,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="251" />
+          <entry key="cs" value="283" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="251" />
+          <entry key="C#" value="283" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,13 +45,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/AdventureGame.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="255">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
               <folding>
-                <marker date="1583305292754" expanded="true" signature="6:100" ph="..." />
-                <marker date="1583305292754" expanded="true" signature="144:447" ph="{...}" />
-                <marker date="1583305292754" expanded="true" signature="301:366" ph="{...}" />
-                <marker date="1583305292754" expanded="true" signature="424:445" ph="{...}" />
+                <marker date="1583305881620" expanded="true" signature="6:100" ph="..." />
+                <marker date="1583305881620" expanded="true" signature="144:499" ph="{...}" />
+                <marker date="1583305881620" expanded="true" signature="319:418" ph="{...}" />
+                <marker date="1583305881620" expanded="true" signature="476:497" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -159,12 +159,12 @@
       <option name="presentableId" value="Default" />
       <updated>1582868059543</updated>
       <workItem from="1582868070018" duration="1529000" />
-      <workItem from="1583304437176" duration="855000" />
+      <workItem from="1583304437176" duration="1431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2384000" />
+    <option name="totallyTimeSpent" value="2960000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,13 +237,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/AdventureGame.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="255">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
           <folding>
-            <marker date="1583305292754" expanded="true" signature="6:100" ph="..." />
-            <marker date="1583305292754" expanded="true" signature="144:447" ph="{...}" />
-            <marker date="1583305292754" expanded="true" signature="301:366" ph="{...}" />
-            <marker date="1583305292754" expanded="true" signature="424:445" ph="{...}" />
+            <marker date="1583305881620" expanded="true" signature="6:100" ph="..." />
+            <marker date="1583305881620" expanded="true" signature="144:499" ph="{...}" />
+            <marker date="1583305881620" expanded="true" signature="319:418" ph="{...}" />
+            <marker date="1583305881620" expanded="true" signature="476:497" ph="{...}" />
           </folding>
         </state>
       </provider>
