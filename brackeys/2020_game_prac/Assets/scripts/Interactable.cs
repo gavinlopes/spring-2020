@@ -16,7 +16,7 @@ public class Interactable : MonoBehaviour
         Debug.Log("interacting with" + transform.name);
     }
 
-    private void Update()
+    void Update()
     {
         if (isFocus && !hasInteracted)
         {
