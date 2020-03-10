@@ -8,6 +8,7 @@
         <e p="scripts" t="Include">
           <e p="Billboard.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="CharacterStats.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
@@ -20,6 +21,7 @@
           <e p="ProjectileMove.cs" t="Include" />
           <e p="RotateToMouse.cs" t="Include" />
           <e p="SpawnProjectiles.cs" t="Include" />
+          <e p="Stat.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
