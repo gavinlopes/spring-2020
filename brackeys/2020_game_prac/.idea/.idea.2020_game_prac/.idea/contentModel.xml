@@ -12,6 +12,8 @@
           <e p="EnemyController.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
+          <e p="Interactable.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
           <e p="PlayerFollow.cs" t="Include" />
           <e p="PlayerHealth.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
