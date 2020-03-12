@@ -11,13 +11,16 @@
           <e p="CharacterCombat.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="CharacterStats.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
+          <e p="EnemyStats.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="Inventory.cs" t="Include" />
           <e p="Item.cs" t="Include" />
           <e p="ItemPickup.cs" t="Include" />
+          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerFollow.cs" t="Include" />
           <e p="PlayerHealth.cs" t="Include" />
