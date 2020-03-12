@@ -39,7 +39,7 @@ public class CharacterStats : MonoBehaviour
     {
         //Die in some way
         //This method is meant to be overwritten
-        Debug.Log(transform.name + "died.");
+        Debug.Log(transform.name + "You dead homie");
     }
 }
 

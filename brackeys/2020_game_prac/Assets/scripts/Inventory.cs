@@ -4,27 +4,54 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
+    #region Singleton
+    
     public static Inventory instance;
 
     void Awake()
     {
+        if (instance != null)
+        {
+            Debug.LogWarning("Moore than one instance of inventory found!");
+            return;
+        }
         instance = this;
     }
     
+    #endregion
+
+    public delegate void OnItemChanged();
+    public OnItemChanged onItemChangedCallBack;
+
+    public int space = 10;
+    
     public List<Item> items = new List<Item>();
 
-    public void Add(Item item)
+    public bool Add(Item item)
     {
         if (!item.isDefaultItem)
         {
-            items.Add(item);  
+            if (items.Count >= space)
+            {
+                Debug.Log("Not enough room");
+                return false;
+            }
+            
+            items.Add(item); 
+            
+            if (onItemChangedCallBack != null)
+                onItemChangedCallBack.Invoke();
         }
-        
+
+        return true;
     }
 
     public void Remove(Item item)
     {
         items.Remove(item);
+        
+        if (onItemChangedCallBack != null)
+            onItemChangedCallBack.Invoke();
     }
 
 }
