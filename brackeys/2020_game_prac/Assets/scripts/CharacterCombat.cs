@@ -7,6 +7,10 @@ public class CharacterCombat : MonoBehaviour
 {
     public float attackSpeed = 1f;
     private float attackCoolDown = 0f;
+
+    public float attackDelay = .6f;
+
+    public event System.Action OnAttack;
     
     CharacterStats myStats;
 
@@ -15,7 +19,7 @@ public class CharacterCombat : MonoBehaviour
         myStats = GetComponent<CharacterStats>();
     }
 
-    private void Update()
+    void Update()
     {
         attackCoolDown -= Time.deltaTime;
     }
@@ -24,10 +28,20 @@ public class CharacterCombat : MonoBehaviour
     {
         if (attackCoolDown <= 0f)
         {
-            targetStats.TakeDamage(myStats.damage.GetValue());
+            StartCoroutine(DoDamage(targetStats, attackDelay));
+
+            if (OnAttack != null)
+                OnAttack();
             attackCoolDown = 1f / attackSpeed;
         }
         
+    }
+
+    IEnumerator DoDamage(CharacterStats stats, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        
+        stats.TakeDamage(myStats.damage.GetValue());
     }
 
 }
