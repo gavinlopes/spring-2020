@@ -12,7 +12,7 @@
     <session id="-151370307">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -22,12 +22,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="484" />
+          <entry key="cs" value="531" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="484" />
+          <entry key="C#" value="531" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,12 +62,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/State.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
-                <marker date="1584850239153" expanded="false" signature="6:78" ph="..." />
-                <marker date="1584850239153" expanded="true" signature="156:345" ph="{...}" />
-                <marker date="1584850239153" expanded="true" signature="292:326" ph="{...}" />
+                <marker date="1584850458353" expanded="false" signature="6:78" ph="..." />
+                <marker date="1584850458353" expanded="true" signature="156:398" ph="{...}" />
+                <marker date="1584850458353" expanded="true" signature="292:326" ph="{...}" />
+                <marker date="1584850458353" expanded="true" signature="360:395" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -163,12 +164,12 @@
       <workItem from="1582868070018" duration="1529000" />
       <workItem from="1583304437176" duration="1715000" />
       <workItem from="1583476895769" duration="1320000" />
-      <workItem from="1584849547980" duration="666000" />
+      <workItem from="1584849547980" duration="1292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5230000" />
+    <option name="totallyTimeSpent" value="5856000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -242,12 +243,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/State.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
-            <marker date="1584850239153" expanded="false" signature="6:78" ph="..." />
-            <marker date="1584850239153" expanded="true" signature="156:345" ph="{...}" />
-            <marker date="1584850239153" expanded="true" signature="292:326" ph="{...}" />
+            <marker date="1584850458353" expanded="false" signature="6:78" ph="..." />
+            <marker date="1584850458353" expanded="true" signature="156:398" ph="{...}" />
+            <marker date="1584850458353" expanded="true" signature="292:326" ph="{...}" />
+            <marker date="1584850458353" expanded="true" signature="360:395" ph="{...}" />
           </folding>
         </state>
       </provider>
