@@ -7,9 +7,7 @@ public class AdventureGame : MonoBehaviour
 {
     [SerializeField] Text textComponent;
     [SerializeField] State startingState;
-
-    string[] daysOfWeek = {"mon", "tues", "wed", "thurs"};
-
+    
     State state;
 
     // Start is called before the first frame update
@@ -17,13 +15,17 @@ public class AdventureGame : MonoBehaviour
     {
         state = startingState;
         textComponent.text = state.GetStateStory();
-        Debug.Log(daysOfWeek[1]);
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        ManageState();
+
+    }
+
+    private void ManageState()
+    {
+        var nextStates = state.GetNextStates();
     }
 }
