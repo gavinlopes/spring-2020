@@ -27,3 +27,6 @@ MonoBehaviour:
     1.fight
 
     2.sneak'
+  nextStates:
+  - {fileID: 11400000, guid: e4e637483b02d4aa6a8537309c8cbd67, type: 2}
+  - {fileID: 11400000, guid: 00e870265b54c4e4fa939f84865e015d, type: 2}

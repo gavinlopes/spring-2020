@@ -57,6 +57,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AimToMouse.cs" />
+    <Compile Include="Assets\FireMove.cs" />
     <Compile Include="Assets\scripts\Billboard.cs" />
     <Compile Include="Assets\scripts\CameraMovement.cs" />
     <Compile Include="Assets\scripts\CharacterCombat.cs" />
@@ -78,10 +80,9 @@
     <Compile Include="Assets\scripts\PlayerManager.cs" />
     <Compile Include="Assets\scripts\PlayerMotor.cs" />
     <Compile Include="Assets\scripts\PlayerStats.cs" />
-    <Compile Include="Assets\scripts\ProjectileMove.cs" />
     <Compile Include="Assets\scripts\RotateToMouse.cs" />
-    <Compile Include="Assets\scripts\SpawnProjectiles.cs" />
     <Compile Include="Assets\scripts\Stat.cs" />
+    <Compile Include="Assets\SpawnFire.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/erikavavrek/Desktop/Spring_2020/spring-2020/brackeys/2020_game_prac/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

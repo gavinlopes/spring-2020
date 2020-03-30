@@ -5,6 +5,8 @@
       <e p="2020_game_prac.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AimToMouse.cs" t="Include" />
+        <e p="FireMove.cs" t="Include" />
         <e p="scripts" t="Include">
           <e p="Billboard.cs" t="Include" />
           <e p="CameraMovement.cs" t="Include" />
@@ -27,11 +29,10 @@
           <e p="PlayerManager.cs" t="Include" />
           <e p="PlayerMotor.cs" t="Include" />
           <e p="PlayerStats.cs" t="Include" />
-          <e p="ProjectileMove.cs" t="Include" />
           <e p="RotateToMouse.cs" t="Include" />
-          <e p="SpawnProjectiles.cs" t="Include" />
           <e p="Stat.cs" t="Include" />
         </e>
+        <e p="SpawnFire.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnProjectiles : MonoBehaviour
+public class SpawnFire : MonoBehaviour
 {
     public GameObject firePoint;
     public List<GameObject> vfx = new List<GameObject>();
-    public RotateToMouse rotateToMouse;
+    public AimToMouse rotateToMouse;
 
     private GameObject effectToSpawn;
     private float timeToFire = 0;
@@ -15,18 +15,21 @@ public class SpawnProjectiles : MonoBehaviour
     void Start()
     {
         effectToSpawn = vfx[0];
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0) && Time.time >= timeToFire)
+        if (Input.GetMouseButton(1) && Time.time >= timeToFire)
         {
-            timeToFire = Time.time + 1 / effectToSpawn.GetComponent<ProjectileMove>().fireRate;
+            timeToFire = Time.time + 1 / effectToSpawn.GetComponent<FireMove>().fireRate;
             SpawnVFX();
+
         }
+        
     }
-    
+
     void SpawnVFX()
     {
         GameObject vfx;
@@ -42,6 +45,7 @@ public class SpawnProjectiles : MonoBehaviour
         else
         {
             Debug.Log("No Fire Point");
-        }      
+        }
+       
     }
 }
