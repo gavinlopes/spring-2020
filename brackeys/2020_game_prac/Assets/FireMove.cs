@@ -26,7 +26,7 @@ public class FireMove : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision co)
+    void OnCollisionEnter(Collision co)
     {
         speed = 0;
         
