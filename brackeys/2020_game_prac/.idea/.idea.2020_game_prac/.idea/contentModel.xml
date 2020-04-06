@@ -17,6 +17,7 @@
           <e p="EnemyController.cs" t="Include" />
           <e p="EnemyStats.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="GameOver.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="Inventory.cs" t="Include" />
