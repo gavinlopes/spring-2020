@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     Camera cam;
     PlayerMotor motor;
+    public CameraShake cameraShake;
     
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
         {
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
+            StartCoroutine(cameraShake.Shake(.10f, .1f));
 
             if (Physics.Raycast(ray, out hit, 100, movementMask))
             {
