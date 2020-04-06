@@ -29,6 +29,7 @@
           <e p="PlayerManager.cs" t="Include" />
           <e p="PlayerMotor.cs" t="Include" />
           <e p="PlayerStats.cs" t="Include" />
+          <e p="PowerUp.cs" t="Include" />
           <e p="RotateToMouse.cs" t="Include" />
           <e p="Stat.cs" t="Include" />
         </e>
