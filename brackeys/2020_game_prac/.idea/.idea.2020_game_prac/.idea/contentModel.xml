@@ -23,7 +23,6 @@
           <e p="Inventory.cs" t="Include" />
           <e p="Item.cs" t="Include" />
           <e p="ItemPickup.cs" t="Include" />
-          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerFollow.cs" t="Include" />
           <e p="PlayerHealth.cs" t="Include" />

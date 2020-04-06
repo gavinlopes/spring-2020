@@ -19,7 +19,7 @@ public class GameOver : MonoBehaviour
         }
     }
 
-    public int CharacterStats { get; set; }
+    public int CharacterStats;
 
     void EndGame()
     {

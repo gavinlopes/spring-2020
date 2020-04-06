@@ -8,7 +8,7 @@ public class CharacterStats : MonoBehaviour
     public Stat damage;
     public Stat armor;
 
-    private void Awake()
+    void Awake()
     {
         currentHealth = maxHealth;
     }
@@ -33,6 +33,10 @@ public class CharacterStats : MonoBehaviour
         {
             Die();
         }
+        
+        
+
+        
     }
 
     public virtual void Die()
@@ -40,6 +44,7 @@ public class CharacterStats : MonoBehaviour
         //Die in some way
         //This method is meant to be overwritten
         Debug.Log(transform.name + "You dead homie");
+        Destroy(gameObject);
     }
 }
 
