@@ -8,6 +8,7 @@ public class PlayerManager : MonoBehaviour
     #region Singleton
 
     public static PlayerManager instance;
+    
 
     void Awake()
     {
@@ -22,5 +23,11 @@ public class PlayerManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    public void EndGame()
+    {
+        Debug.Log("DIED");
+    }
+    
 
 }

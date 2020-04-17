@@ -8,7 +8,7 @@ public class Stat
     [SerializeField]
     private int baseValue;
 
-    private List<int> modifiers = new List<int>();
+    private readonly List<int> modifiers = new List<int>();
     
 
     public int GetValue()
@@ -30,5 +30,4 @@ public class Stat
             modifiers.Remove(modifier);
     }
     
-    //need to add remove mod!
 }
