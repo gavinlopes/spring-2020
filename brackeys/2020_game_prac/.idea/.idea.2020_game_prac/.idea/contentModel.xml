@@ -34,6 +34,7 @@
           <e p="PowerUp.cs" t="Include" />
           <e p="RotateToMouse.cs" t="Include" />
           <e p="Stat.cs" t="Include" />
+          <e p="Teleporting.cs" t="Include" />
         </e>
         <e p="SpawnFire.cs" t="Include" />
       </e>
