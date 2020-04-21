@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class PlayAnimation : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Animator myAnimation;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
+        if (other.CompareTag("Player"))
+        {
+            myAnimation.SetBool("PlayDrive", true);
+        }
+    }    
 }
