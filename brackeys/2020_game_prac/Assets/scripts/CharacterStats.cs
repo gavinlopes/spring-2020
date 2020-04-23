@@ -4,8 +4,11 @@ using UnityEngine.SceneManagement;
 public class CharacterStats : MonoBehaviour
 {
     public int maxHealth = 100;
-    public int currentHealth { get; private set; }
+    public int currentHealth;
     public GameObject player;
+
+    public HealthBar healthBar;
+    
    
     
     
@@ -15,6 +18,7 @@ public class CharacterStats : MonoBehaviour
     void Awake()
     {
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     private void Update()
@@ -28,7 +32,8 @@ public class CharacterStats : MonoBehaviour
         damage = Mathf.Clamp(damage, 0, int.MaxValue);
         currentHealth -= damage;
         Debug.Log(transform.name + " takes " + damage + " damage. ");
-
+        healthBar.SetHealth(currentHealth);
+        
         if (currentHealth <= 0)
         {
             Die();
