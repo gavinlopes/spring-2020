@@ -8,8 +8,6 @@ public class PlayerManager : MonoBehaviour
     #region Singleton
 
     public static PlayerManager instance;
-    private bool gameEnd = false;
-    public float restartDelay = 1f;
     
     
 
@@ -24,23 +22,15 @@ public class PlayerManager : MonoBehaviour
 
     public void KillPlayer()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("Game_final");
     }
 
     public void EndGame()
     {
-        if (gameEnd == false)
-        {
-            gameEnd = true;
-            Debug.Log("DIED");
-            Invoke("Restart", restartDelay);
-        }      
+            Debug.Log("DIED");        
     }
 
-    void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+
     
 
 }
