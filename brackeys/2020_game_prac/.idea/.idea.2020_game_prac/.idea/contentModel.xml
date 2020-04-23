@@ -14,6 +14,7 @@
           <e p="CharacterCombat.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="CharacterStats.cs" t="Include" />
+          <e p="EndPoint.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="EnemyStats.cs" t="Include" />
