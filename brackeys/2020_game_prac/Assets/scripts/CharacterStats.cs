@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterStats : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth { get; private set; }
+    public GameObject player;
+   
     
     
     public Stat damage;
@@ -35,8 +38,22 @@ public class CharacterStats : MonoBehaviour
 
     public virtual void Die()
     {
-        Destroy(gameObject);
-        
+
+        if (gameObject != currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
+
+        else if (player != currentHealth >= 0)
+        {
+            
+        }
+
+        else if (player != currentHealth <= 0)
+        {
+            SceneManager.LoadScene("Game_final");
+        }
+
     }
 }
 
