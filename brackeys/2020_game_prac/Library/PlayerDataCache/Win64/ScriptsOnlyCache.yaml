@@ -2,25 +2,43 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AimToMouse
+    - Billboard
     - CameraMovement
     - CameraShake
     - CharacterCombat
     - CharacterStats
+    - EndPoint
     - Enemy
     - EnemyController
     - EnemyStats
     - FireMove
+    - GameOver
+    - Heal
+    - HealthBar
     - Inventory
+    - PlayAnimation
     - PlayerController
     - PlayerManager
     - PlayerMotor
     - PowerUp
     - SpawnFire
-    Unity.Rider.Editor.dll:
-    - Packages.Rider.Editor.RiderScriptEditorData
+    - Teleporting
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/Game_final.unity:
     - Class: 1
@@ -45,7 +63,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 96
       Script: {instanceID: 0}
@@ -54,36 +78,66 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 9676}
+    - Class: 114
       Script: {instanceID: 9768}
     - Class: 114
-      Script: {instanceID: 10024}
+      Script: {instanceID: 9830}
     - Class: 114
-      Script: {instanceID: 10354}
+      Script: {instanceID: 9870}
     - Class: 114
-      Script: {instanceID: 10368}
+      Script: {instanceID: 9892}
     - Class: 114
-      Script: {instanceID: 10406}
+      Script: {instanceID: 9938}
     - Class: 114
-      Script: {instanceID: 10510}
+      Script: {instanceID: 10026}
     - Class: 114
-      Script: {instanceID: 10534}
+      Script: {instanceID: 10032}
     - Class: 114
-      Script: {instanceID: 10604}
+      Script: {instanceID: 10252}
+    - Class: 114
+      Script: {instanceID: 10358}
+    - Class: 114
+      Script: {instanceID: 10372}
+    - Class: 114
+      Script: {instanceID: 10410}
+    - Class: 114
+      Script: {instanceID: 10440}
+    - Class: 114
+      Script: {instanceID: 10494}
+    - Class: 114
+      Script: {instanceID: 10516}
+    - Class: 114
+      Script: {instanceID: 10540}
     - Class: 114
       Script: {instanceID: 10610}
     - Class: 114
-      Script: {instanceID: 10656}
+      Script: {instanceID: 10616}
     - Class: 114
-      Script: {instanceID: 10998}
+      Script: {instanceID: 10662}
     - Class: 114
-      Script: {instanceID: 11090}
+      Script: {instanceID: 10688}
     - Class: 114
-      Script: {instanceID: 11260}
+      Script: {instanceID: 10858}
     - Class: 114
-      Script: {instanceID: 11334}
+      Script: {instanceID: 11006}
     - Class: 114
-      Script: {instanceID: 11408}
+      Script: {instanceID: 11070}
+    - Class: 114
+      Script: {instanceID: 11098}
+    - Class: 114
+      Script: {instanceID: 11268}
+    - Class: 114
+      Script: {instanceID: 11342}
+    - Class: 114
+      Script: {instanceID: 11416}
+    - Class: 114
+      Script: {instanceID: 11418}
+    - Class: 114
+      Script: {instanceID: 11450}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -98,6 +152,12 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 238
       Script: {instanceID: 0}
@@ -200,6 +260,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 9ab48f26d3db6cf57c5b5c0f5dc88927
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Teleporting
+  - hash:
+      serializedVersion: 2
       Hash: 234235b9fb07320d11497e08a726cc56
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -258,6 +324,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraShake
+  - hash:
+      serializedVersion: 2
+      Hash: 963635fa41ecc418a714c05cc31e74e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EndPoint
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -386,6 +458,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 8417490f1fccc9dc74dba87472b18dde
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayAnimation
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -404,7 +482,7 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: 159814baec7f12a89949cd2c17a69e50
+      Hash: 5e09788c2607316e04b8c70536e86e3a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyStats
@@ -456,6 +534,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Interactable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Heal
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -548,7 +632,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 83e769eee07fc231384c812eedbb8224
+      Hash: a0e78cd0e65af44fe6c904345b44642e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerManager
@@ -584,7 +668,7 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: 159814baec7f12a89949cd2c17a69e50
+      Hash: 5e09788c2607316e04b8c70536e86e3a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterStats
@@ -668,7 +752,7 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: 159814baec7f12a89949cd2c17a69e50
+      Hash: 5e09788c2607316e04b8c70536e86e3a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerStats
@@ -681,4 +765,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Game_final.unity
-  playerPath: /Users/erikavavrek/Desktop/game_build_p2/2020_game_prac.exe
+  playerPath: /Users/erikavavrek/Desktop/game_build_p3/game_build_p3/2020_game_prac.exe
