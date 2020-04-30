@@ -21,8 +21,10 @@ ScriptsOnlyBuild:
     - PlayerManager
     - PlayerMotor
     - PowerUp
+    - SlowTime
     - SpawnFire
     - Teleporting
+    - UnlockTime
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -94,47 +96,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10032}
     - Class: 114
-      Script: {instanceID: 10252}
+      Script: {instanceID: 10096}
     - Class: 114
-      Script: {instanceID: 10358}
+      Script: {instanceID: 10254}
     - Class: 114
-      Script: {instanceID: 10372}
+      Script: {instanceID: 10360}
     - Class: 114
-      Script: {instanceID: 10410}
+      Script: {instanceID: 10374}
     - Class: 114
-      Script: {instanceID: 10440}
+      Script: {instanceID: 10412}
     - Class: 114
-      Script: {instanceID: 10494}
+      Script: {instanceID: 10442}
     - Class: 114
-      Script: {instanceID: 10516}
+      Script: {instanceID: 10496}
     - Class: 114
-      Script: {instanceID: 10540}
+      Script: {instanceID: 10518}
     - Class: 114
-      Script: {instanceID: 10610}
+      Script: {instanceID: 10542}
     - Class: 114
-      Script: {instanceID: 10616}
+      Script: {instanceID: 10612}
     - Class: 114
-      Script: {instanceID: 10662}
+      Script: {instanceID: 10618}
     - Class: 114
-      Script: {instanceID: 10688}
+      Script: {instanceID: 10664}
     - Class: 114
-      Script: {instanceID: 10858}
+      Script: {instanceID: 10690}
     - Class: 114
-      Script: {instanceID: 11006}
+      Script: {instanceID: 10860}
     - Class: 114
-      Script: {instanceID: 11070}
+      Script: {instanceID: 10902}
     - Class: 114
-      Script: {instanceID: 11098}
+      Script: {instanceID: 11010}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11074}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11102}
     - Class: 114
-      Script: {instanceID: 11416}
+      Script: {instanceID: 11272}
     - Class: 114
-      Script: {instanceID: 11418}
+      Script: {instanceID: 11346}
     - Class: 114
-      Script: {instanceID: 11450}
+      Script: {instanceID: 11420}
+    - Class: 114
+      Script: {instanceID: 11422}
+    - Class: 114
+      Script: {instanceID: 11454}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -354,6 +360,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 8955d759bbafc0ede18b99a1da8d5fd6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UnlockTime
   - hash:
       serializedVersion: 2
       Hash: b01c1573901c8ea85d59f6bfd065dca4
@@ -596,6 +608,12 @@ ScriptsOnlyBuild:
     className: GameOver
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SlowTime
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -765,4 +783,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Game_final.unity
-  playerPath: /Users/erikavavrek/Desktop/game_build_p3/game_build_p3/2020_game_prac.exe
+  playerPath: /Users/erikavavrek/Desktop/Final_game_build/2020_game_prac.exe
